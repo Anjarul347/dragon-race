@@ -44,21 +44,28 @@ body{
 }
 
 .gameOver{
-    position: relative;
-    top:63px;
-    font-size: 53px;
-    text-align: center; 
+    top:31px;
+    font-size: 45px;
     font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    border: 4px solid rgb(30, 254, 1);
+    padding: 10px;
+    color: #fefefe;
+    position: absolute; 
+    text-align: center;
+    border: 4px solid rgb(30, 254, 1);
+    padding: 10px;
+    border-radius: 10px;
 }
 
 #scoreCont{
     font-size: 25px;
-    color: #54212f;
+    color: #fefefe;
     font-weight: bold;
     position: absolute;
     right: 45px;
     top: 31px;
-    border: 2px solid black;
+    border: 4px solid rgb(30, 254, 1);
     padding: 10px;
     font-family: 'Ubuntu', sans-serif;
     border-radius: 10px;
